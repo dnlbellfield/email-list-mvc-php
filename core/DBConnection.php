@@ -6,7 +6,7 @@ use PDO;
 class DBConnection{
   public static function start() {
     try {
-      return $pdo = new PDO('mysql:host=127.0.0.1;dbname=email-list-2','root', 'root');
+      return $pdo = new PDO("{$_ENV['DB_CONNECTION']}:host={$_ENV['DB_HOST']};PORT={$_ENV['DB_PORT']};dbname={$_ENV['DB_DATABASE']}",$_ENV['DB_USERNAME'], $_ENV['DB_PASSWORD']);
     } catch(PDOException $e) {
       dd($e->getMessage());
     } 
