@@ -144,31 +144,31 @@
                       class="submenu relative top-full left-0 hidden w-[250px] rounded-sm bg-white p-4 transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
                     >
                       <a
-                        href="about.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         About Page
                       </a>
                       <a
-                        href="pricing.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Pricing Page
                       </a>
                       <a
-                        href="contact.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Contact Page
                       </a>
                       <a
-                        href="blog-grids.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Blog Grid Page
                       </a>
                       <a
-                        href="blog-details.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Blog Details Page
@@ -180,13 +180,13 @@
                         Sign Up Page
                       </a>
                       <a
-                        href="signin.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Sign In Page
                       </a>
                       <a
-                        href="404.html"
+                        href="/"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         404 Page
@@ -198,13 +198,13 @@
             </div>
             <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
-                href="signin.html"
+                href="/"
                 class="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70"
               >
                 Sign In
               </a>
               <a
-                href="signup.html"
+                href="/"
                 class="signUpBtn rounded-lg bg-white bg-opacity-20 py-3 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
               >
                 Sign Up
