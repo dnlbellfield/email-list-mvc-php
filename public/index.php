@@ -5,8 +5,11 @@ use Core\DBConnection;
 require '../vendor/autoload.php';
 require '../core/helpers.php';
 require '../app/routes.php';
-$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
-$dotenv->load();
+if (file_exists(__DIR__ . '/../' . '.env')) {
+  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+  $dotenv->load(__DIR__);
+}
+
 // require '../app/views/index.view.php';
 
 
