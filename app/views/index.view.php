@@ -236,7 +236,7 @@
               <p
                 class="mx-auto mb-10 max-w-[600px] text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed"
               >
-                Today we got <span class="inline-flex items-center justify-center rounded-lg bg-black py-1 px-1 text-center text-base font-medium text-white transition duration-300 ease-in-out hover:text-primary hover:shadow-lg sm:px-10"> 
+                There are <span class="inline-flex items-center justify-center rounded-lg bg-black py-1 px-1 text-center text-base font-medium text-white transition duration-300 ease-in-out hover:text-primary hover:shadow-lg sm:px-10"> 
                 <!-- count — Counts all elements in an array or in a Countable object / $allEmails is an array -->
                   <?php echo $totalEmails; ?> </span> developers using our templates.
               </p>
