@@ -26,7 +26,7 @@ class PageController {
     if ($_POST['email'] != "") {
 
       if ($EmailModel->insert($_POST['email'])) {
-        redirect('http://localhost:8080/thank-you');
+        redirect('/thank-you');
       } else {
         view("index", [
           "name" => "Daniel",
